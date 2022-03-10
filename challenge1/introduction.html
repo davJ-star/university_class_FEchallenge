@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Introduction</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        #name {
+            /* text-align: center; */
+            font-size:50px;
+        }
+        #line {
+            height: 10px;
+            background-color: gray;
+        }
+        hr {
+            width: 50%;
+            height: 10px;
+            background-color: gray;
+        }
+        div{
+            /* text-align: center; */
+        }
+        div span {
+            font-size: 25px;
+            color: orange;
+        }
+        #my-Introduction{
+            /* text-align: center; */
+            font-size: 20px;
+            color:green;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    <span id = "name">정성욱</span> 
+    <!-- onmouseover="show()" onmouseout="hide()" -->
+    <!-- <div id = "line"/> -->
+    <hr/>
+    <br/>
+    <div><img id = "fig" src=""/></div>
+    <div id = "my-Introduction">
+        저는 대한민국 <span>대구</span>에 태어나서 소프트웨어를 전공하는 학생입니다.<br/>
+        제가 전공과목에서 제일 좋아하는 과목은 <span>JAVA</span>입니다.<br/>
+        최근에 가지는 것은 <span>웹 프로그래밍</span>이며, <br/>
+        프론트:<span>React.js</span>를 중심으로 알고 있으며,<br/>
+        백엔드:<span>Nest.js</span>는 시작 단계입니다.(node.js공부중입니다.)<br/>
+        + <span>graph QL</span>과 <span>Redux</span>에 관심이 많습니다.
+    </div>
+
+    <script>
+        // const name = document.getElementById("name");
+        // const img = document.getElementById("fig");
+        const name = document.querySelector("span");
+        const img = document.querySelector("img");
+        console.log(name);
+        console.log(img);
+    
+        const show = () => {img.src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"};
+        const hide = () => {img.src = ""};
+        // function show() {
+        //     img.src = "/googlelogo_color_272x92dp.png";
+        // }
+        // function hide() {
+        //     img.src = "";
+        // }
+    
+        name.addEventListener("mouseover", show);
+        name.addEventListener("mouseout", hide);
+    </script>
+</body>
+</html>
