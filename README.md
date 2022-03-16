@@ -85,6 +85,7 @@ var를 사용했다.
 
 ### challenge2
 ```paintext
+// 각종 태그 - 표/라디오/이미지/링크 등..
 ```
 
 ### challenge3
