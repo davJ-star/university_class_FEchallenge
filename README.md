@@ -90,6 +90,7 @@ var를 사용했다.
 
 ### challenge3
 ```paintext
+// challenge2 확장: sementic tag과 그외(링크)
 ```
 
 ### challenge4
