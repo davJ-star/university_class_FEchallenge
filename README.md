@@ -1,4 +1,7 @@
 # 학부 웹 프로그래밍
+```piantext
+javascript와 css는 html파일에 같이 써서 포함이 안된다.
+```
 ## 정적
 ```paintext
 html - 뼈대 작성(뿌리기)
